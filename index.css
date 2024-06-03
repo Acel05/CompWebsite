@@ -1,0 +1,364 @@
+.bg-nav {
+    background-color: #212429;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    z-index: 10000;
+    
+}
+
+.shadow {
+    filter: drop-shadow(0px -40px 100px rgba(210, 210, 210, 0.27));
+}
+
+.shadow-white {
+    filter: drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.521));
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.lecturer {
+    width: 100%;
+    height: auto;
+}
+
+#changing-image, #change-text {
+    transition: opacity 1s;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.alumni {
+    filter: contrast(85%);
+    filter: brightness(80%);
+    width: 40vh;
+    height: 40vh;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width {
+    flex: 2 0 0;
+    padding-right: 2vw;
+}
+
+.width2{
+    flex: 2 0 0;
+}
+
+
+.adv{
+    font-size: 3vh;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+.nav-item:hover .nav-link {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-menu {
+    display: block;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #212429;
+    margin-top: 10%;
+}
+
+.dropdown-color {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-toggle{
+    pointer-events: none;
+}
+
+.nav-item.active {
+    font-weight: 500;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+        display: none;
+        margin-top: 0.3%;
+    }
+
+    .nav-item:hover .nav-link {
+        transform: scaleZ(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.vision {
+    margin-top: 1.7vh;
+}
+
+.mission {
+    margin-left: -2vh;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    #contact {
+        display: none;
+    }
+}
+
+.image {
+	height: 650px;
+	width: 1536px;
+}
+
+.bg {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text {
+    display: none;
+    position: absolute;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.icon {
+    text-decoration: none;
+}
+
+.link-light:hover .bi {
+    scale: 1.2;
+}
+
+.btn-change{
+    background: #fff;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #212429;
+}
+
+.btn-change:hover{
+    transform: scale(1.1);
+    background: #212429;
+    color: #fff;
+    filter: drop-shadow(0px 0px 33px rgba(255, 255, 255, 0.7));
+}
+
+.btn-change7{
+    background: white;
+    margin: 20px;
+    float: left;
+    border: 0px;
+    color:#212429;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    box-shadow:0px 0 0 lightgreen  inset;
+}
+.btn-change7:hover{
+    background: white;
+    color:#212429;
+    box-shadow:200px 0 0 lightgreen inset;
+}
+
+.btn-change8{
+    background: white;
+    margin: 20px;
+    float: left;
+    border: 0px;
+    color:#212429;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    box-shadow:0px 0 0 lightcoral  inset;
+}
+.btn-change8:hover{
+    background: white;
+    color:#212429;
+    box-shadow:200px 0 0 lightcoral inset;
+}
+
+.arrow {
+    display: none;
+    height: 5vh;
+    margin-top: 80vh;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.bg2 {
+    background-color: #212429;
+}
+
+.bg-contact{
+    background-color: #454a52;
+    border-radius: 30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 94vh;
+}
+
+.bordervmo{
+    background-color: #454a52;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.imgrad{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.lcname{ 
+    margin-top: 15px; 
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.p{
+    color: #64646d;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    margin: auto;
+}
+
+.img-center { 
+    display:block;
+    margin:0 auto;
+}
+
+.shrink img {
+    transition: 1s ease;
+    }
+    
+.shrink img:hover{
+    cursor: pointer;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.imglect1 {
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imglect {
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imglect2 {
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imglect3 {
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bg-footer{
+    background-color: #2e3238;
+}
+
+#president, #university {
+    transition: color 2.5s;
+}
+
+.is {
+    background-image: url(assets/IS.JPG);
+}
+
+.cs {
+    background-image: url(assets/compting.png);
+}
+
+.it {
+    background-image: url(assets/IT.JPG);
+}
+
+.dkv {
+    background-image: url(assets/DKV.JPG);
+}
+
+.id {
+    background-image: url(assets/ID.JPG);
+}
+
+table, th {
+    border: 1px solid black;
+    width: 530px;
+    height: 530px;
+    margin: 30px;
+}
+
+h1, h3, h5, p, li, a, label, legend, td, th {
+    font-family: times_new_roman;
+}
